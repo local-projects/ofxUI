@@ -184,7 +184,7 @@ void ofApp::draw()
         ofNoFill(); 
     }
 
-    ofCircle(position.x, position.y, radius);
+    ofDrawCircle(position.x, position.y, radius);
     
 	ofPopStyle(); 
 }

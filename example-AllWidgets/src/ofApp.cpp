@@ -12,7 +12,7 @@ void ofApp::setup(){
     ddl = NULL;
     textInput = NULL;
     img = new ofImage();
-    img->loadImage("nerd_me.png");
+    img->load("nerd_me.png");
     buffer = new float[256];
     for(int i = 0; i < 256; i++) { buffer[i] = ofNoise(i/100.0); }
     

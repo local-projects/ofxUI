@@ -31,9 +31,9 @@ void ofApp::setup()
 
     gui->addSpacer();
     img = new ofImage(); 
-    img->loadImage("of1.jpg"); 
+    img->load("of1.jpg");
     img2 = new ofImage(); 
-    img2->loadImage("of2.jpg");     
+    img2->load("of2.jpg");
     
     float dim = (gui->getGlobalCanvasWidth() - gui->getPadding()*7.0)*0.5;
     gui->addLabel("IMAGE DISPLAY");
